@@ -2,7 +2,7 @@
 
 Gets certain crypto details
 
-## How to use?
+## How to build and run?
 
 ```bash
 git clone https://github.com/Hunter-Thompson/coinconverter && cd coinconverter
