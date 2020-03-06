@@ -5,7 +5,24 @@ let http = require("https");
 var express = require('express');
 var app = express();
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //////////////////////////////////////////////////////////////////////////////
+
 
 app.get('/coin', function(req, res){
   var coindata = req.query.id;
@@ -22,8 +39,11 @@ app.get('/coin', function(req, res){
   let request = http.request(op, x=> {
       x.on("data", f => {
           try{
-            let converted = f
-            res.send("1 " + from + " = " + converted + "\n")
+            let converted = f + ''
+            let changed = converted.split(":").pop()
+            let final = changed.slice(0, -1)
+            console.log(2.3*final)
+            res.send("1 " + from + " = " + to + ' ' + final + "\n")
           } catch(e) {
               console.error(e);
           }
@@ -32,6 +52,7 @@ app.get('/coin', function(req, res){
   request.on("error", console.error);
   request.end()
 });
+
 
 //////////////////////////////////////////////////////////////////////////////
 
@@ -64,6 +85,8 @@ app.get('/fullcoin', function(req, res){
 
 
 //////////////////////////////////////////////////////////////////////////////
+
+
 
 //https://rest.coinapi.io/v1/exchangerate/BTC/USD 
 
