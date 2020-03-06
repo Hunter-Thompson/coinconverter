@@ -13,18 +13,34 @@ docker run -d -p 80:3000 coinconverter
 ## How to query?
 
 ```bash
-from=BTC
-to=USD
-curl "http://localhost/fullcoin?id=$from?$to"
+curl "http://localhost/api/converter?id=BTC&id=USD&id=.5"
 or
-curl "http://localhost/coin?id=$from?$to"
+curl "http://localhost/api/price?id=BTC&id=USD"
+or
+curl "http://localhost/api/fullcoin?id=BTC&id=USD"
 ```
 
 ## Example responses
 
-For fullcoin: 
+for `/api/converter`
 
-```json
+```bash
+curl "http://localhost/api/converter?id=BTC&id=USD&id=.5"
+.5 BTC = 4557.595 USD
+```
+
+For `/api/price` : 
+
+```bash
+curl "http://localhost/api/price?id=BTC&id=USD"
+1 BTC = 9113.83 USD
+```
+
+
+For `/api/fullcoin`: 
+
+```bash
+curl "http://localhost/api/fullcoin?id=BTC&id=USD"
 {
   "RAW": {
     "BTC": {
@@ -126,8 +142,3 @@ For fullcoin:
 }
 ```
 
-For coin : 
-
-```json
-1 BTC = {"USD":9084.71}
-```
