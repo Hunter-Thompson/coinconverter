@@ -76,7 +76,7 @@ class Converter extends Component {
     render() {
         return (
             <div className="Converter">
-                <h2><span>Currency </span> Converter <span role="img" aria-label="money">&#x1f4b5;</span> </h2>
+                <h2><span>Crypto </span> Converter <span role="img" aria-label="money">&#x1f4b5;</span> </h2>
                 <div className="Form">
                     <input
                         name="amount"
