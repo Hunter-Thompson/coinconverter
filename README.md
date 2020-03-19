@@ -15,3 +15,7 @@ docker run -d -p 80:5000 coinconverter
 ```
 localhost
 ```
+
+## Image
+
+![alt text](https://imgur.com/a/3LrrChO)
