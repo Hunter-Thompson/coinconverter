@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import qr_code from './image/monero_qr.png'
 
 import './Converter.css';
 
@@ -109,6 +110,9 @@ class Converter extends Component {
                 {this.state.result && 
                     <h3>{this.state.result}</h3>
                 }
+                <div>
+                    <img src={qr_code} alt="qr"/>
+                </div>
             </div>
         );
     }
