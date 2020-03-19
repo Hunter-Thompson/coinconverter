@@ -17,6 +17,5 @@ localhost
 ```
 
 ## Image
-![Imgur Image](https://imgur.com/a/3LrrChO.png)
-
+[Imgur](https://i.imgur.com/AflO3pc.png)
 
