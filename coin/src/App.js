@@ -91,7 +91,7 @@ class Converter extends Component {
                         onChange={(event) => this.selectHandler(event)}
                         value={this.state.fromCurrency}
                     >
-                        {this.state.currencies.map(cur => (
+                        {this.state.crypto_currencies.map(cur => (
                             <option key={cur}>{cur}</option>
                         ))}
                     </select>
@@ -100,7 +100,7 @@ class Converter extends Component {
                         onChange={(event) => this.selectHandler(event)}
                         value={this.state.toCurrency}
                     >
-                        {this.state.crypto_currencies.map(cur => (
+                        {this.state.currencies.map(cur => (
                             <option key={cur}>{cur}</option>
                         ))}
                     </select>
