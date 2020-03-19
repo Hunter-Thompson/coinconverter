@@ -7,10 +7,11 @@ RUN apk add bash
 
 RUN npm install serve -g
 
+COPY package.json .
+
+RUN npm install
 
 COPY . .
-
-WORKDIR /app/coin
 
 RUN npm run build
 
