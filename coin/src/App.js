@@ -111,7 +111,13 @@ class Converter extends Component {
                     <h3>{this.state.result}</h3>
                 }
                 <div>
+                    <text>
+                        Donate:
+                    </text>
                     <img src={qr_code} alt="qr"/>
+                    <text>
+                        monero:4B8xYuW1ufmZPMQ8JR7rmG17fu1JbniaoBFQg7YWcYV1CHpMMJLTfva1hhMnuKXF7k3rDCFTtmxFBc4kM6aDSDynPuWhx4Y
+                    </text>
                 </div>
             </div>
         );
