@@ -112,6 +112,17 @@ class Converter extends Component {
                 }
                 <div>
                     <text>
+                    {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
                         {"\n"}
                         {"\n"}
                         {"\n"}
