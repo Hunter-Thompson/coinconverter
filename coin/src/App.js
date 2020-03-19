@@ -112,6 +112,10 @@ class Converter extends Component {
                 }
                 <div>
                     <text>
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
                         Donate:
                     </text>
                 </div>
@@ -120,6 +124,20 @@ class Converter extends Component {
                 </div>    
                 <div>
                     <text>
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
+                        {"\n"}
                         monero:4B8xYuW1ufmZPMQ8JR7rmG17fu1JbniaoBFQg7YWcYV1CHpMMJLTfva1hhMnuKXF7k3rDCFTtmxFBc4kM6aDSDynPuWhx4Y
                     </text>
                 </div>
